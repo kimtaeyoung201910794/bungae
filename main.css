@@ -1,0 +1,128 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#info_header{
+	border: 1px  solid black;
+	width: 1280px;
+	height: 78px;
+	
+	display: flex;
+	align-items: center;
+	
+}
+
+.info_wrap{
+	border: 1px  solid red;
+	width: 620px;
+	height: 24px;
+	display: flex;
+	flex-direction: row;
+	float: right;
+	
+}
+.logo_wrap{
+	border: 1px solid black;
+	height: 30px;
+	width: 125px;
+	float: left;
+	background-color: black;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main_logo{
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+.all_wrap{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+
+
+.info{
+	border: 1px solid black;
+	flex-grow: 1;
+	flex-basis: 0;
+	font-family: 'Jua', sans-serif;
+	align-items: center;
+	display: flex;
+  	justify-content: center;
+	font-size: 14px;
+}
+#header{
+	display: flex;
+    width: 100%;
+    height: 700px;
+	border: 1px  solid black;
+}
+
+#main{
+	display: flex;
+    width: 100%;
+    height: 3067px;
+	border: 1px solid black;
+	
+}
+
+.main_wrap{
+	width: 1100px;
+	display: flex;
+  	margin: 0 auto;
+}
+#categori{
+	width: 100%;
+	height: 319px;
+	border: 1px solid black;
+	display: flex;
+}
+
+.wrap_categori{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
