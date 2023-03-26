@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./introduce_company.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+    </style>
+</head>
+<body onload="chkSize(event)" onscroll="info_headerToggle()">
+    <div id="info_header">
+        <div class="all_wrap">
+            <div class="logo_wrap">
+                <img id="logo_img" class="main_logo" src="https://bgzt.co.kr/assets/icon/icon_bunjang_white.svg">
+            </div>
+        
+            <div class="info_wrap">
+                <div id="info1" class="info">회사소개</div>
+                <div id="info2" class="info">브랜드</div>
+                <div id="info3" class="info">서비스</div>
+                <div id="info4" class="info">팀</div>
+                <div id="info5" class="info">뉴스룸</div>
+                <div id="info6" class="info">인재영입</div>
+                <div id="info7" class="info">번개장터 써보기</div>
+            </div>
+       </div>
+    </div>
+
+    <div id="header">
+        <video muted autoplay loop>
+            <source class="vid" src="https://static.bunjang.co.kr/official/Brand_15_720P.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="intro_main">
+        <div class="intro_title_box">
+            <div class="intro_title"></div>
+            <div class="intro_comment"></div>
+        </div>
+        <div class="intro_history"></div>
+
+    </div>
+    <script type="text/javascript" src="./introduce_company.js"></script>
+</body>
+</html>

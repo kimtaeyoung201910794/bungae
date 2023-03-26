@@ -10,21 +10,21 @@
         @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
     </style>
 </head>
-<body>
+<body onload="chkSize(event)" onscroll="info_headerToggle()">
     <div id="info_header">
         <div class="all_wrap">
             <div class="logo_wrap">
-                <img class="main_logo" src="https://bgzt.co.kr/assets/icon/icon_bunjang_white.svg">
+                <img id="logo_img" class="main_logo" src="https://bgzt.co.kr/assets/icon/icon_bunjang_white.svg">
             </div>
         
             <div class="info_wrap">
-                <div class="info">회사소개</div>
-                <div class="info">브랜드</div>
-                <div class="info">서비스</div>
-                <div class="info">팀</div>
-                <div class="info">뉴스룸</div>
-                <div class="info">인재영입</div>
-                <div class="info">번개장터 써보기</div>
+                <div id="info1" class="info">회사소개</div>
+                <div id="info2" class="info">브랜드</div>
+                <div id="info3" class="info">서비스</div>
+                <div id="info4" class="info">팀</div>
+                <div id="info5" class="info">뉴스룸</div>
+                <div id="info6" class="info">인재영입</div>
+                <div id="info7" class="info">번개장터 써보기</div>
             </div>
        </div>
     </div>
