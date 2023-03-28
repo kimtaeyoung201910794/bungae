@@ -38,23 +38,3 @@ function info_headerToggle() {
 
     }
 }
-
-const intro_main = document.querySelector('.intro_main');
-const intro_title_box = document.querySelector('.intro_title_box');
-const intro_mainTop = intro_main.getBoundingClientRect().top + window.scrollY;
-const intro_mainBottom = intro_main.getBoundingClientRect().bottom + window.scrollY;
-
-window.addEventListener('scroll', function(){
-    if(window.scrollY+200 >= intro_mainTop){
-        intro_title_box.classList.add('fixed');
-        if(window.scrollY+500 >= intro_mainBottom){
-            intro_title_box.classList.remove('fixed');
-        }}
-    else{
-        intro_title_box.classList.remove('fixed');
-    }
-});
-
-// else if(window.scrollY >= intro_mainTop+500){
-//     intro_title_box.classList.remove('fixed');
-// }
