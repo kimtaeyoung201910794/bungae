@@ -26,7 +26,7 @@ function info_headerToggle() {
 
     }
     else {
-        info_header.style.backgroundColor='transparent';
+        info_header.style.backgroundColor='black';
         logo_img.src = "https://bgzt.co.kr/assets/icon/icon_bunjang_white.svg";
         info1.style.color = "white";
         info2.style.color = "white";
