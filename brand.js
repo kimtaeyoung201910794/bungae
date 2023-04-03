@@ -38,3 +38,7 @@ function info_headerToggle() {
 
     }
 }
+
+function win_open(page,name) {
+    window.open(page,name,"width=500, height=600, left=800, top=200");
+};

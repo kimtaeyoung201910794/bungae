@@ -239,6 +239,16 @@ b{
 	flex-basis: 0;
 	/* border: 1px solid black; */
 }
+button{
+	border: none;
+	background-color:transparent;
+}
+.info_wrap{
+	z-index: 3;
+}
+video{
+	z-index: -4;
+}
 
 /* .section1{
 	width: 520px;
